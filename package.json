@@ -1,0 +1,25 @@
+{
+  "name": "uuid-compression",
+  "version": "1.0.0",
+  "description": "Compress and decompress RFC 4122 UUIDs",
+  "keywords": [
+    "guid",
+    "rfc4122",
+    "uuid"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pgaubatz/node-uuid-compression.git"
+  },
+  "author": "Patrick Gaubatz <patrick@gaubatz.at>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pgaubatz/node-uuid-compression/issues"
+  },
+  "homepage": "https://github.com/pgaubatz/node-uuid-compression#readme",
+  "main": "index.js",
+  "dependencies": {
+    "@pgaubatz/uuid": "^0.1.0",
+    "bs58": "^3.0.0"
+  }
+}
